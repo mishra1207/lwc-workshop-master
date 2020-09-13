@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : Aman Mishra
+  @group             : 
+  @last modified on  : 09-12-2020
+  @last modified by  : Aman Mishra
+  Modifications Log 
+  Ver   Date         Author        Modification
+  1.0   09-11-2020   Aman Mishra   Initial Version
+-->
+<template>
+    <div class = "slds-card">
+        <div class="slds-card__body slds-card__body_inner slds-var-p-vertical_small">
+            Hello, {greeting}!
+        </div>
+        <input type = "text" value = {myInput} class="slds-input" onchange = {handleChange}/>
+        <button name = "Update" type = "submit" class = "slds-button slds-button_brand slds-var-m-top_small" onclick = {handleClick}>
+            Update
+        </button>
+    </div>
+</template>
